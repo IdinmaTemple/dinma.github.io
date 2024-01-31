@@ -1,0 +1,88 @@
+body {
+    background-color: #ffebcb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+p{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    color: #c74800;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    padding: 15px;
+    transition: height 0.3s;
+    color: white;
+    font-size: 20px;
+    background-color: #ff8938;
+}
+
+button:hover{
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(243, 161, 129);
+}
+#noButton{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+#yesButton{
+    position: absolute;
+    margin-top: 400px;
+    margin-right: 80px;
+}
+@media only screen and (max-width: 480px) and (max-height: 800px) {
+    img, button {
+        max-width: 80%; 
+    }
+}
+
+@media only screen and (max-width: 640px) and (max-height: 1136px) {
+    
+}
+
+@media only screen and (max-width: 720px) and (max-height: 1280px) {
+   
+}
+
+
+@media only screen and (max-width: 750px) and (max-height: 1334px) {
+
+}
+
+
+@media only screen and (max-width: 1080px) and (max-height: 1920px) {
+    
+}
+
+
+@media only screen and (max-width: 1440px) and (max-height: 2560px) {
+    
+}
